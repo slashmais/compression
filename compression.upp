@@ -1,0 +1,15 @@
+description "compress/decompress strings & files\377";
+
+uses
+	utilfuncs;
+
+library
+	z;
+
+file
+	compression.h,
+	compression.cpp;
+
+mainconfig
+	"" = "";
+
